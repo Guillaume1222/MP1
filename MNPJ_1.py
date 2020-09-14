@@ -24,9 +24,9 @@ while s!=x :
         print("trop petit!")
         s=int(input("réessaie! :"))
         c=c+1
-    else:
-        c=c+1
-        s=print("Gagner en",c ,"coups!")
+        
+print("Gagner en",c ,"coups!")
+        
         
 #3
 def etoiles(x)->None:
